@@ -84,3 +84,10 @@ nav {
 
 /* Section5 CSS */
 
+#s5{
+    margin:15vh 0vh;
+}
+
+.carousel{
+    margin: auto;
+}
