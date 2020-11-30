@@ -38,7 +38,49 @@ nav {
 /* Section2 CSS */
 
 #s2{
-    height:100vh;
+    height:80vh;
     background-color: white;
 }
+
+.sect2{
+    text-align: center;
+    margin:auto;
+}
+
+.header h1{
+    font-size: 5vh;
+    font-weight: 700;
+    text-decoration: underline;
+    padding:5vh;
+}
+
+.about p{
+    font-size: 2vh;
+    padding-top: 3vh;
+}
+
+.about img{
+    height:40vh;
+    width:45vh;
+}
+
+/* Section3 CSS*/
+
+#s3{
+    height: 50vh;
+    background-image: linear-gradient(to right, #00ffff, #00ccff , #0099ff, #00ccff, #00ffff);;
+}
+
+/* Section4 CSS */
+
+#s4{
+    margin-top: -18vh;
+}
+
+#s4 .card{
+    text-align: center;
+    height: 25vh;
+}
+
+/* Section5 CSS */
 
