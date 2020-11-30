@@ -2,3 +2,44 @@
     margin: 0;
     padding: 0;
 }
+
+/* Navbar*/
+
+nav {
+    background-image: linear-gradient(to right, #00ffff, #00ccff , #0099ff, #00ccff, #00ffff);
+}
+
+.nav-link{
+    font-family: sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: black;
+}
+
+/* Section1 CSS*/
+
+.sect1 {
+    height: 100vh;
+    background-image: linear-gradient(to right, #00ffff, #00ccff , #0099ff, #00ccff, #00ffff);
+}
+
+/* .intro{
+    height: ;
+} */
+
+.heading{
+    margin:auto;
+    padding-top: 20%;
+    text-align: center;
+}
+
+.waves{
+    height: 50vh;
+}
+
+/* Section2 CSS */
+
+#s2{
+    height:100vh;
+    background-color: white;
+}
