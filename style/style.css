@@ -68,7 +68,7 @@ nav {
 
 #s3{
     height: 50vh;
-    background-image: linear-gradient(to right, #00ffff, #00ccff , #0099ff, #00ccff, #00ffff);;
+    background-image: linear-gradient(to right, #00ffff, #00ccff , #0099ff, #00ccff, #00ffff);
 }
 
 /* Section4 CSS */
@@ -90,4 +90,11 @@ nav {
 
 .carousel{
     margin: auto;
+}
+
+/* Footer */
+
+footer{
+    height:60vh;
+    background-image: linear-gradient(to right, #00ffff, #00ccff , #0099ff, #00ccff, #00ffff);
 }
