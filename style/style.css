@@ -19,22 +19,20 @@ nav {
 /* Section1 CSS*/
 
 .sect1 {
-    height: 100vh;
     background-image: linear-gradient(to right, #00ffff, #00ccff , #0099ff, #00ccff, #00ffff);
 }
 
-/* .intro{
-    height: ;
-} */
-
-.heading{
+.banner{
     margin:auto;
-    padding-top: 20%;
+    padding-top: 5vh;
+    padding-bottom: 4vh;
+    font-size: 2vh;
     text-align: center;
 }
 
-.waves{
-    height: 50vh;
+.banner img{
+    height: 45vh;
+    width: 45vh;
 }
 
 /* Section2 CSS */
@@ -43,3 +41,4 @@ nav {
     height:100vh;
     background-color: white;
 }
+
