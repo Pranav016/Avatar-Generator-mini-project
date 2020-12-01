@@ -20,13 +20,14 @@ nav {
 
 .sect1 {
     background-image: linear-gradient(to right, #00ffff, #00ccff , #0099ff, #00ccff, #00ffff);
+    overflow-x:hidden;
 }
 
 .banner{
     margin:auto;
     padding-top: 5vh;
     padding-bottom: 4vh;
-    font-size: 2vh;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -35,10 +36,14 @@ nav {
     width: 45vh;
 }
 
+#s1 .wave{
+    margin-left: -5%;
+    width: 110%;
+}
+
 /* Section2 CSS */
 
 #s2{
-    height:80vh;
     background-color: white;
 }
 
@@ -48,14 +53,14 @@ nav {
 }
 
 .header h1{
-    font-size: 5vh;
+    font-size: 4rem;
     font-weight: 700;
     text-decoration: underline;
     padding:5vh;
 }
 
 .about p{
-    font-size: 2vh;
+    font-size: 1.5rem;
     padding-top: 3vh;
 }
 
@@ -67,34 +72,100 @@ nav {
 /* Section3 CSS*/
 
 #s3{
-    height: 50vh;
-    background-image: linear-gradient(to right, #00ffff, #00ccff , #0099ff, #00ccff, #00ffff);
+    padding-top:10%;
 }
 
-/* Section4 CSS */
-
-#s4{
-    margin-top: -18vh;
-}
-
-#s4 .card{
+#s3 .card{
     text-align: center;
     height: 25vh;
 }
 
-/* Section5 CSS */
 
-#s5{
-    margin:15vh 0vh;
+/* Section4 CSS */
+
+#s4{
+    margin:30% 0;
+}
+
+#s4 h1{
+    text-align: center;
+    font-size: 4rem;
+    text-decoration: underline;
+    padding: 7vh 0;
 }
 
 .carousel{
     margin: auto;
 }
 
+/* Section5 CSS */
+
+#s5{
+    text-align: center;
+}
+
+#s5 h1{
+    font-size: 4rem;
+    text-decoration: underline;
+    padding: 0 0 12vh;
+}
+
+#s5 i{
+    font-size: 20vh;
+    padding: 2vh;
+}
+
+.fa-instagram{
+    color:#e4405f;
+}
+
+.fa-facebook{
+    color:#3b5999;
+}
+
+.fa-twitter{
+    color:#55acee;
+}
+
+.fa-linkedin-in{
+    color:#0077B5;
+}
+
+.fab:hover{
+    color:#8585ad;
+}
+
+/* Section6 CSS */
+
+#s6 h1{
+    font-size: 4rem;
+    text-decoration: underline;
+    padding: 10vh 0;
+}
+
+.avatar-img{
+    
+}
+
 /* Footer */
 
 footer{
-    height:60vh;
     background-image: linear-gradient(to right, #00ffff, #00ccff , #0099ff, #00ccff, #00ffff);
+    text-align: center;
+    overflow-x:hidden;
+}
+
+.wave2{
+    margin-left:-5%;
+    width: 110%;
+    
+}
+
+footer h1{
+    text-decoration: underline;
+    padding-bottom: 5vh;
+}
+
+footer p{
+    font-size: 1.5rem;
 }
