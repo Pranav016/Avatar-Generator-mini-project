@@ -1,6 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+}
+
+h1,h2,h3,p{
+    overflow-y: hidden;
 }
 
 /* Navbar*/
@@ -20,7 +25,6 @@ nav {
 
 .sect1 {
     background-image: linear-gradient(to right, #00ffff, #00ccff , #0099ff, #00ccff, #00ffff);
-    overflow-x:hidden;
 }
 
 .banner{
@@ -71,13 +75,10 @@ nav {
 
 /* Section3 CSS*/
 
-#s3{
-    padding-top:15%;
-}
-
 #s3 .card{
+    margin-top: 15%;
     text-align: center;
-    height: 25vh;
+    height: 27vh;
 }
 
 
@@ -143,7 +144,7 @@ nav {
 
 #s6 .avatar img{
     height: 50vh;
-    width: 50vh;
+    width: 45vh;
 }
 
 #s6 h1{
