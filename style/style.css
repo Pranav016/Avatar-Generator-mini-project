@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
 }
 
 h1,h2,h3,p{
@@ -19,6 +18,11 @@ nav {
     font-size: 1rem;
     text-transform: uppercase;
     color: black;
+}
+
+/* Body */
+body{
+    overflow-x: hidden;
 }
 
 /* Section1 CSS*/
