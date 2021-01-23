@@ -1,7 +1,7 @@
 # Avatar-Generator-mini-project
 
 ## About-
-A mini project on Avatar Generator to understand work flow of a project and how an API works. Used avatar collection API and deployed the website on Heroku.
+A mini project on Avatar Generator to understand work flow of a project and how an API works. Used **avatar collection API** and **deployed the website on Heroku**.
 
 ## Demo-
 ![Demo alt](demo/demo.gif)
